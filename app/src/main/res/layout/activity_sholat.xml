@@ -1,0 +1,36 @@
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SholatActivity">
+
+    <TextView
+        android:id="@+id/jdlDzikirsolat"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir solat"/>
+
+    <TextView
+        android:id="@+id/txtDzikirsolat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jdlDzikirsolat"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/DzikirSesudahSolat"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>
+</ScrollView>
